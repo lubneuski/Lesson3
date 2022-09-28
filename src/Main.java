@@ -5,12 +5,12 @@ public class Main {
     public static void main(String[] args) {
         //Управляющие конструкции:
         //Задание №1
-//        String month = "2";
-//        switch (month) {case "12", "1", "2" -> System.out.println("Зима");
-//                         case "3", "4", "5" -> System.out.println("Весна");
-//                         case "6", "7", "8" -> System.out.println("Лето");
-//                         case "9", "10", "11" -> System.out.println("Осень");
-//                         default -> System.out.println("Неверное значение");}
+        String month = "2";
+        switch (month) {case "12", "1", "2" -> System.out.println("Зима");
+                         case "3", "4", "5" -> System.out.println("Весна");
+                         case "6", "7", "8" -> System.out.println("Лето");
+                         case "9", "10", "11" -> System.out.println("Осень");
+                         default -> System.out.println("Неверное значение");}
 
         //Задание №2
 //        int qwerty = 7;
@@ -63,7 +63,8 @@ public class Main {
 
         //Задание №4
 //        int q = 7;
-//        while(q<98){System.out.print(" " + q);//           q=q+7;}
+//        while(q<98){System.out.print(" " + q);
+//           q=q+7;}
 
         //Задание №5
 //        for(int a=0, n=1; n<=10; n++, a=(n-1)*-5){System.out.print(a+", ");}
